@@ -1,0 +1,31 @@
+'''
+Created on Jan 21, 2016
+
+@author: Seokyong Hong
+'''
+import logging
+from connection.PLUS import FusekiLogin
+from operation.graph.TriangleCounter import TriangleCounter
+from operation.graph.NodeEccentricity import NodeEccentricity
+from operation.graph.ConnectedComponents import ConnectedComponents
+from operation.graph.PageRank import PageRank
+from operation.initial.InitialTriangleCounter import InitialTriangleCounter
+from operation.initial.InitialConnectedComponents import InitialConnectedComponents
+from connection.Parliament import Parliament
+from connection.GraphDB import GraphDB
+
+logging.basicConfig(level = logging.CRITICAL)
+
+
+if __name__ == '__main__':
+    #connection = FusekiLogin('ds', 'solarpy')
+    #connection = Parliament('http://192.168.1.100', 8080)
+    connection = GraphDB('http://localhost', 7200)
+    #operation = InitialTriangleCounter(connection)
+    #operation = InitialConnectedComponents(connection)
+    #operation = TriangleCounter(False, False, connection)
+    operation = NodeEccentricity('<node:0>', connection)
+    #operation = ConnectedComponents(connection)
+    #operation = PageRank(0.00001, 0.85, connection)
+ 
+    operation.execute()

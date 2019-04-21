@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="operation.graph.SimplePageRank"/>
+<fullyQualifiedTypeName name="operation.initial.InitialTriangleCounter"/>
+<fullyQualifiedTypeName name="operation.initial.InitialConnectedComponents"/>
+<fullyQualifiedTypeName name="org.openrdf.sail.nativerdf.NativeStore"/>
+<fullyQualifiedTypeName name="org.openrdf.repository.http.HTTPRepository"/>
+<fullyQualifiedTypeName name="org.openrdf.repository.Repository"/>
+</qualifiedTypeNameHistroy>

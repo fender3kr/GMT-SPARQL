@@ -1,0 +1,103 @@
+package operation.graph;
+
+import org.openrdf.model.Literal;
+import org.openrdf.query.BindingSet;
+import org.openrdf.query.TupleQueryResult;
+import org.openrdf.repository.RepositoryConnection;
+
+import exception.OperationException;
+import operation.GraphOperation;
+
+public class Eccentricity extends GraphOperation {
+	private static final String NAME = "Eccentricity";
+	
+	private static final String QUERY_INIT_GRAPH = ""
+			+ "CREATE GRAPH <http://workingGraph>;";
+	private static final String QUERY_INIT_NODES = ""
+			+ "INSERT { GRAPH <http://workingGraph> { ?node <temp:labels> 0; <temp:origin> ?node }}\n"
+			+ "WHERE {\n"
+			+ "  ?node <urn:connectedTo>|^<urn:connectedTo> ?neighbor"
+			+ "};";
+	private static final String QUERY_INSERT_NEIGHBORS = ""
+			+ "INSERT { GRAPH <http://workingGraph> { ?neighbor <temp:labels> %d; <temp:origin> ?origin }}\n"
+            + "WHERE {\n"
+            + "  SELECT ?neighbor ?origin\n"
+            + "  WHERE {\n"
+            + "    GRAPH <http://workingGraph> {\n"
+            + "      ?node <temp:labels> %d; <temp:origin> ?origin .\n"
+            + "      ?origin <temp:origin> ?origin\n"
+            + "    } .\n"
+            + "    ?node <urn:connectedTo>|^<urn:connectedTo> ?neighbor .\n"
+            + "    FILTER (!EXISTS { GRAPH <http://workingGraph> { ?neighbor <temp:origin> ?origin }})\n"
+            + "  }\n"
+            + "};";  
+	private static final String QUERY_COUNT_UPDATES = ""
+			+ "SELECT (COUNT(*) AS ?count)\n"
+			+ "WHERE {\n"
+			+ "  GRAPH <http://workingGraph> { ?s ?p ?o }\n"
+			+ "}";
+	private static final String QUERY_RETRIEVE_RESULT = ""
+			+ "SELECT ?node (MAX(?label) AS ?eccentricity)\n"
+			+ "WHERE {\n"
+			+ "  GRAPH <http://workingGraph> {\n"
+			+ "    ?node <temp:origin> ?node .\n"
+			+ "    ?any <temp:origin> ?node .\n"
+			+ "    ?any <temp:labels> ?label\n"
+			+ "  }\n"
+			+ "}\n"
+			+ "GROUP BY ?node";
+			
+	private static final String QUERY_DROP_GRAPH = ""
+			+ "DROP GRAPH <http://workingGraph>;";
+	
+	public Eccentricity(RepositoryConnection connection) throws OperationException {
+		super(NAME, connection);
+	}
+	
+	@Override
+	public void init() {
+		connection.prepareUpdate(QUERY_INIT_GRAPH).execute();
+		connection.prepareUpdate(QUERY_INIT_NODES).execute();
+	}
+
+	@Override
+	public void process() {
+		int iteration = 0;
+		
+		while(true) {
+			iteration++;
+			System.out.println("\tIteration: " + iteration);
+			connection.prepareUpdate(String.format(QUERY_INSERT_NEIGHBORS, iteration, iteration - 1)).execute();
+			if(converge())
+				break;
+		}
+		saveEccentricities();
+		System.out.println("The number of iterations: " + iteration);
+	}
+
+	@Override
+	protected void end() {
+		connection.prepareUpdate(QUERY_DROP_GRAPH).execute();
+	}
+
+	private boolean converge() {
+		int count = 0;
+		TupleQueryResult result = connection.prepareTupleQuery(QUERY_COUNT_UPDATES).evaluate();
+		if(result.hasNext()) {
+			BindingSet binding = result.next();
+			count = ((Literal)binding.getValue("count")).intValue();
+		}
+		return count == 0;
+	}
+	
+	private void saveEccentricities() {
+		TupleQueryResult result = connection.prepareTupleQuery(QUERY_RETRIEVE_RESULT).evaluate();
+		while(result.hasNext()) {
+			BindingSet binding = result.next();
+			String node = binding.getValue("node").toString();
+			int eccentricity = ((Literal)binding.getValue("eccentricity")).intValue();
+			
+			writer.writeLine("Node: " + node + " Eccentricity: " + eccentricity);
+		}
+	}
+}

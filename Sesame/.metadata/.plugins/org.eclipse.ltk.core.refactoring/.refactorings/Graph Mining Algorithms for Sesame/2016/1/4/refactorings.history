@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;Graph Mining Algorithms for Sesame&apos;&#x0A;- Original project: &apos;Graph Mining Algorithms for Sesame&apos;&#x0A;- Original element: &apos;operation.graph.Eccentricity.java&apos;" description="Delete element" element1="/src&lt;operation.graph{Eccentricity.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1453415619595" subPackages="false" version="1.0"/>
+</session>

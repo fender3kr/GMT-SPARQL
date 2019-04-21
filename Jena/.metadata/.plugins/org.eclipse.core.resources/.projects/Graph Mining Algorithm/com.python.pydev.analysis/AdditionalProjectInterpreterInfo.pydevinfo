@@ -1,0 +1,279 @@
+-- VERSION_4
+-- START DISKCACHE_2
+/home/phantom/Desktop/Graph Mining/Graph Mining Algorithm/.metadata/.plugins/org.eclipse.core.resources/.projects/Graph Mining Algorithm/com.python.pydev.analysis/v2_indexcache
+solarpy.profile.__init__|1394032272000000000|/home/phantom/Desktop/Graph Mining/Graph Mining Algorithm/Graph Mining Algorithm/solarpy/profile/__init__.py
+solarpy.yarc.__init__|1391618720000000000|/home/phantom/Desktop/Graph Mining/Graph Mining Algorithm/Graph Mining Algorithm/solarpy/yarc/__init__.py
+operation.graph.PageRank|1453410466000000000|/home/phantom/Desktop/Graph Mining/Graph Mining Algorithm/Graph Mining Algorithm/operation/graph/PageRank.py
+operation.graph.__init__|1453388304000000000|/home/phantom/Desktop/Graph Mining/Graph Mining Algorithm/Graph Mining Algorithm/operation/graph/__init__.py
+main|1461723784000000000|/home/phantom/Desktop/Graph Mining/Graph Mining Algorithm/Graph Mining Algorithm/main.py
+solarpy.__init__|1391618720000000000|/home/phantom/Desktop/Graph Mining/Graph Mining Algorithm/Graph Mining Algorithm/solarpy/__init__.py
+operation.initial.__init__|1453409301000000000|/home/phantom/Desktop/Graph Mining/Graph Mining Algorithm/Graph Mining Algorithm/operation/initial/__init__.py
+utility.__init__|1453389669000000000|/home/phantom/Desktop/Graph Mining/Graph Mining Algorithm/Graph Mining Algorithm/utility/__init__.py
+connection.Parliament|1453630380000000000|/home/phantom/Desktop/Graph Mining/Graph Mining Algorithm/Graph Mining Algorithm/connection/Parliament.py
+solarpy.yarc.RdfHelp|1394032272000000000|/home/phantom/Desktop/Graph Mining/Graph Mining Algorithm/Graph Mining Algorithm/solarpy/yarc/RdfHelp.py
+operation.graph.ConnectedComponents|1453646070000000000|/home/phantom/Desktop/Graph Mining/Graph Mining Algorithm/Graph Mining Algorithm/operation/graph/ConnectedComponents.py
+operation.initial.InitialTriangleCounter|1453409607000000000|/home/phantom/Desktop/Graph Mining/Graph Mining Algorithm/Graph Mining Algorithm/operation/initial/InitialTriangleCounter.py
+solarpy.yarc.Tracking|1392864684000000000|/home/phantom/Desktop/Graph Mining/Graph Mining Algorithm/Graph Mining Algorithm/solarpy/yarc/Tracking.py
+solarpy.yarc.yarcutils|1391618720000000000|/home/phantom/Desktop/Graph Mining/Graph Mining Algorithm/Graph Mining Algorithm/solarpy/yarc/yarcutils.py
+operation.graph.NodeEccentricity|1453424152000000000|/home/phantom/Desktop/Graph Mining/Graph Mining Algorithm/Graph Mining Algorithm/operation/graph/NodeEccentricity.py
+utility.FileWriter|1453398016000000000|/home/phantom/Desktop/Graph Mining/Graph Mining Algorithm/Graph Mining Algorithm/utility/FileWriter.py
+solarpy.yarc.urika|1453397828000000000|/home/phantom/Desktop/Graph Mining/Graph Mining Algorithm/Graph Mining Algorithm/solarpy/yarc/urika.py
+operation.initial.InitialConnectedComponents|1453646028000000000|/home/phantom/Desktop/Graph Mining/Graph Mining Algorithm/Graph Mining Algorithm/operation/initial/InitialConnectedComponents.py
+connection.PLUS|1453435021000000000|/home/phantom/Desktop/Graph Mining/Graph Mining Algorithm/Graph Mining Algorithm/connection/PLUS.py
+connection.__init__|1453397175000000000|/home/phantom/Desktop/Graph Mining/Graph Mining Algorithm/Graph Mining Algorithm/connection/__init__.py
+solarpy.profile.profile|1394032272000000000|/home/phantom/Desktop/Graph Mining/Graph Mining Algorithm/Graph Mining Algorithm/solarpy/profile/profile.py
+operation.GraphOperation|1453409864000000000|/home/phantom/Desktop/Graph Mining/Graph Mining Algorithm/Graph Mining Algorithm/operation/GraphOperation.py
+solarpy.yarc.BlockTemplate|1391618720000000000|/home/phantom/Desktop/Graph Mining/Graph Mining Algorithm/Graph Mining Algorithm/solarpy/yarc/BlockTemplate.py
+solarpy.yarc.Graphy|1391618720000000000|/home/phantom/Desktop/Graph Mining/Graph Mining Algorithm/Graph Mining Algorithm/solarpy/yarc/Graphy.py
+operation.graph.TriangleCounter|1461712036000000000|/home/phantom/Desktop/Graph Mining/Graph Mining Algorithm/Graph Mining Algorithm/operation/graph/TriangleCounter.py
+operation.__init__|1453388010000000000|/home/phantom/Desktop/Graph Mining/Graph Mining Algorithm/Graph Mining Algorithm/operation/__init__.py
+PLUS|1414984116000000000|/home/phantom/Desktop/Graph Mining/Graph Mining Algorithm/Graph Mining Algorithm/PLUS.py
+connection.GraphDB|1461723648000000000|/home/phantom/Desktop/Graph Mining/Graph Mining Algorithm/Graph Mining Algorithm/connection/GraphDB.py
+-- END DISKCACHE
+-- START DICTIONARY
+96
+72=Graphy.__init__
+52=UrikaOptions
+92=Parliament.__init__
+17=operation.graph.PageRank
+96=GraphOperation.execute
+5=main
+35=initwrapper
+40=InitialConnectedComponents
+25=Result
+44=TriangleCounter
+26=TrackingEntity
+18=connection.Parliament
+36=ConnectedComponents
+64=TrackingContext.start
+34=initsolarpy
+62=InitialTriangleCounter.process
+41=Graphy
+63=TrackingContext.__init__
+27=TrackingContext
+80=initsolarpy.__init__
+14=operation.initial.InitialTriangleCounter
+74=PageRank.process
+47=NodeEccentricity
+70=ResultWriter.open
+22=LogExceptions
+20=utility.FileWriter
+83=Urika.login
+8=solarpy.yarc.urika
+42=GraphEntity
+79=PageRank.initialize
+95=Parliament.Urika.__init__
+39=Rdfer
+49=ResultWriter
+54=UrikaOptions.__init__
+45=Parliament.Urika
+78=NodeEccentricity.__init__
+23=LogExtra
+59=Urika.checkpoint_roll
+9=solarpy.yarc.Graphy
+10=operation.GraphOperation
+57=Rdfer.__init__
+90=GraphEntity.__init__
+7=operation.graph.TriangleCounter
+87=LogExtra.__init__
+50=DbMem
+46=Parliament
+2=PLUS
+11=connection.GraphDB
+71=DbMem.__init__
+51=Urika
+89=TrackingEntity.start
+31=GraphDB
+28=Tracking
+37=InitialTriangleCounter
+65=Tracking.__init__
+24=PoolPlus
+32=GraphOperation
+91=GraphDB.__init__
+73=ConnectedComponents.process
+75=InitialConnectedComponents.process
+38=RdferEnt
+66=TriangleCounter.process
+55=initoptions.__init__
+82=Urika.set_prologue
+93=TriangleCounter.initialize
+61=GraphOperation.__init__
+88=Urika.db_validate
+3=solarpy.yarc.RdfHelp
+43=Worker
+60=Worker.__init__
+85=RdferEnt.__init__
+6=operation.graph.ConnectedComponents
+21=LogExceptions.__init__
+53=Urika.__init__
+15=solarpy.yarc.Tracking
+81=WithPool
+12=solarpy.yarc.yarcutils
+69=TriangleCounter.__init__
+58=BlockTemplate.__init__
+94=GraphDB.Urika.__init__
+16=operation.graph.NodeEccentricity
+77=ResultWriter.__init__
+48=PageRank
+56=SingletonPool
+67=NodeEccentricity.process
+13=operation.initial.InitialConnectedComponents
+76=TrackingEntity.__init__
+1=connection.PLUS
+33=initoptions
+30=GraphDB.Urika
+19=solarpy.profile.profile
+84=Urika.switchDatabase
+4=solarpy.yarc.BlockTemplate
+68=PageRank.__init__
+29=BlockTemplate
+86=initwrapper.__init__
+-- END DICTIONARY
+-- START TREE 1
+52
+_ur|2|_urikaCheck!10@_urikaCheck!18@
+a|1|a!27@
+bas|1|baseURI!27@
+blo|1|BlockTemplate!33@
+com|1|comment!27@
+con|2|connection!43@ConnectedComponents!49@
+cou|1|counter!59@
+dbm|1|DbMem!65@
+dep|1|depth!35@
+dic|1|dict_brief_str!34@
+doi|1|doInclude!34@
+esc|1|escapeUri!26@
+fus|2|FusekiLogin!18@FusekiLogin!10@
+gra|4|GraphEntity!73@Graphy!73@GraphOperation!81@GraphDB!89@
+hby|1|hbytes!98@
+id|1|id!26@
+ign|1|ignoreSigInt!98@
+ini|11|initsolarpy!9@InitialConnectedComponents!105@init_options!66@init_logging!98@initoptions!17@InitialTriangleCounter!113@init_logging!66@initsolarpy!17@initwrapper!9@initoptions!9@initwrapper!17@
+lab|1|label!27@
+lit|1|lit!26@
+ln|1|ln!26@
+loa|1|load!34@
+log|4|log!99@LogExtra!97@log!123@LogExceptions!97@
+mai|2|main_run!66@main!66@
+mon|3|monitor_logfile!66@monitor_log_proc!66@monitor!66@
+myt|1|myType!26@
+nod|1|NodeEccentricity!129@
+ope|1|operation!43@
+p|1|p!26@
+pag|1|PageRank!137@
+par|2|Parliament!145@parseTS!26@
+poo|1|PoolPlus!97@
+pre|2|pre!27@prepare_options!66@
+pro|3|process_stats!66@process!98@profile!154@
+pyn|1|pyname!66@
+pyt|1|pyToXsdTypes!27@
+rdb|1|rdbToXsdTypes!27@
+rdf|3|rdftype!27@RdferEnt!25@Rdfer!25@
+rel|1|relfile!34@
+res|2|ResultWriter!161@Result!97@
+run|2|run_foreach!34@run_include!34@
+s|1|s!26@
+ser|1|serv_stats!66@
+sin|1|SingletonPool!97@
+tra|3|TrackingContext!121@TrackingEntity!121@Tracking!121@
+tri|1|TriangleCounter!57@
+trp|1|trp!26@
+typ|1|typedLit!26@
+uri|5|UrikaLogin!10@UrikaLogin!18@UrikaOptions!65@uri!26@Urika!65@
+wit|1|WithPool!97@
+wor|1|Worker!57@
+xsd|5|xsd_long!26@xsdInt!26@xsdLit!26@xsdString!26@xsdTypeUri!26@
+-- END TREE
+-- START TREE 2
+90
+__c|2|__callable!21&99@__call__!22&98@
+__g|1|__getitem__!23&98@
+__i|35|__init__!23&98@__init__!22&98@__init__!24&98@__init__!25&98@__init__!26&122@__init__!27&122@__init__!28&122@__iter__!23&98@__init__!29&34@__init__!30&90@__init__!31&90@__init__!32&82@__init__!33&18@__init__!34&18@__init__!35&18@__init__!36&50@__init__!37&114@__init__!38&26@__init__!39&26@__init__!40&106@__init__!33&10@__init__!34&10@__init__!35&10@__init__!41&74@__init__!42&74@__init__!43&58@__init__!44&58@__init__!45&146@__init__!46&146@__init__!47&130@__init__!48&138@__init__!49&162@__init__!50&66@__init__!51&66@__init__!52&66@
+__m|1|__metaclass__!32&83@
+add|3|add!42&74@addlit!42&74@addict!26&122@
+adm|7|adminUrl!53&67@admin_post!51&66@admin!54&67@admin!55&11@admin_get!51&66@admin!55&19@admin_delete!51&66@
+app|2|apply_async!24&98@apply_async!56&98@
+bas|7|baseURI!55&11@baseURI!55&19@base!39&26@baseURI!54&67@BASE_DIRECTORY!49&163@baseuri!57&27@basefilename!26&122@
+blo|2|blocks!58&35@blockt!51&66@
+bui|2|build_query!51&66@build!29&34@
+che|10|checkpoint_restore!51&66@checkpoint_roll!51&66@checkpoint_id_for_name!51&66@checkpoint_created!53&67@checkpoint_created!59&67@checkpoint_delete!51&66@checkpoint_create!51&66@checkpoint_delete_first_n!51&66@checkpoint_active!51&66@checkpoint_list!51&66@
+clo|2|close!49&162@close!56&98@
+coe|2|coerceterm!41&74@coerceuri!41&74@
+com|36|COMMAND_TO_INSERT_NEIGHBOR_NODES!47&131@COMMAND_TO_COUNT_NODES!48&139@comment!42&74@COMMAND_TO_INSERT_NODES_TO_WORKING_GRAPH!40&107@COMMAND_TO_UPDATE_NODE_TO_MINIMAL_NODE!40&107@COMMAND_TO_FINALIZE_WORKING_GRAPH!40&107@COMMAND_TO_SET_INITIAL_PAGERANKS!48&139@COMMAND_TO_FINALIZE!44&59@COMMAND_TO_STORE_INITIAL_GRAPH!44&59@COMMAND_TO_COUNT_TRIANGLES_DIRECTED_SINGLE!44&59@COMMAND_TO_RETRIEVE_PAGERANKS!48&139@COMMAND_TO_RETRIEVE_OUTDEGREE!48&139@COMMAND_TO_UPDATE_PAGERANKS!48&139@COMMAND_TO_INITIALIZE_WORKING_GRAPH!36&51@commonrq!53&67@COMMAND_TO_COUNT_NODES!47&131@COMMAND_TO_COUNT_TRIANGLES!37&115@COMMAND_TO_RETRIEVE_RESULT!40&107@COMMAND_TO_FINALIZE_WORKING_GRAPH!36&51@COMMAND_TO_UPDATE_NODE_TO_MINIMAL_NODE!36&51@COMMAND_TO_RETRIEVE_RESULT!36&51@COMMAND_TO_INSERT_NODES_TO_WORKING_GRAPH!36&51@COMMAND_TO_FINALIZE_WORKING_GRAPH!47&131@COMMAND_TO_FINALIZE_WORKING_GRAPH!48&139@COMMAND_TO_INSERT_INITIAL_NODE!47&131@COMMAND_TO_INITIALIZE!44&59@COMMAND_TO_CHECK_CONVERGENCE!40&107@COMMAND_TO_CHECK_CONVERGENCE!36&51@COMMAND_TO_CHECK_CONVERGENCE!48&139@COMMAND_TO_COUNT_NODES_IN_TEMPORARY_GRAPH!47&131@COMMAND_TO_COUNT_TRIANGLES!44&59@COMMAND_TO_INITIALIZE_WORKING_GRAPH!47&131@COMMAND_TO_DELETE_DELTAS!48&139@COMMANDS_FOR_MULTITHREADS!44&59@COMMAND_TO_INITIALIZE_WORKING_GRAPH!48&139@COMMAND_TO_INITIALIZE_WORKING_GRAPH!40&107@
+con|7|converges!48&138@converges!36&50@context!27&122@context!28&122@converges!40&106@connection!60&59@connection!61&83@
+cou|11|count!62&115@count!63&123@count!64&123@count!65&123@count!66&59@count_graph!51&66@count!67&131@countNodes!47&130@count_type!51&66@counts!47&130@count!57&27@
+dam|1|dampingFactor!68&139@
+dat|3|data_items!51&66@data_import!51&66@data_item_for_name!51&66@
+db|3|db!55&19@db!54&67@db!55&11@
+db_|15|db_for_name!51&66@db_list!51&66@db_state!51&66@db_validate!51&66@db_restart!51&66@db_validate_by_query!51&66@db_stop!51&66@db_wait_while_starting!51&66@db_status!51&66@db_freemem!51&66@db_dirty!51&66@db_start!51&66@db_ensure_started!51&66@db_mem!51&66@db_create!51&66@
+dbm|5|dbmem_used!51&66@dbmemmax!53&67@dbmemmax!54&67@dbmemmax!55&19@dbmemmax!55&11@
+deb|3|debug!55&11@debug!54&67@debug!55&19@
+dec|1|declare!39&26@
+dir|1|directed!69&59@
+dry|6|dryrun!55&11@dryhttp!55&11@dryrun!55&19@dryhttp!54&67@dryhttp!55&19@dryrun!54&67@
+ela|1|elapsed!26&122@
+ent|4|entries!27&122@entries!28&122@ent!39&26@entrystr!26&122@
+eps|1|epsilon!68&139@
+err|1|error!26&122@
+exe|1|execute!32&82@
+fil|1|file!70&163@
+fin|7|finalize!40&106@finalize!44&58@finalize!32&82@finalize!48&138@finalize!47&130@finalize!36&50@finalize!37&114@
+fla|3|flavor!54&67@flavor!55&11@flavor!55&19@
+fre|1|free!71&67@
+get|1|get!25&98@
+go|1|go!24&98@
+gra|1|graph!72&75@
+ini|7|initialize!47&130@initialize!40&106@initialize!44&58@initialize!32&82@initialize!37&114@initialize!48&138@initialize!36&50@
+ins|2|insert_rdfs_namespace!51&66@insert_data!51&66@
+ite|4|iteration!67&131@iteration!73&51@iteration!74&139@iteration!75&107@
+joi|1|join!56&98@
+lab|2|label!42&74@label!39&26@
+lit|1|lit!39&26@
+log|11|logfiles!51&66@log!53&67@logfile!26&122@logdir!55&11@logdir!55&19@logdir!54&67@log_level!76&123@log_level!63&123@log_level!53&67@logg!51&66@login!51&66@
+max|1|max!71&67@
+mon|3|monitor!55&11@monitor!55&19@monitor!54&67@
+mul|1|multithreaded!69&59@
+nam|4|name!77&163@name!58&35@name!61&83@name!60&59@
+nod|1|node!78&131@
+ns|1|ns!72&75@
+ntr|1|ntriples!28&122@
+num|1|numberOfNodes!79&139@
+obj|1|objects!42&74@
+ope|1|open!49&162@
+opt|4|options!80&11@options!53&67@options!65&123@options!80&19@
+out|1|out!57&27@
+pas|3|password!55&11@password!54&67@password!55&19@
+pat|1|path!70&163@
+pre|1|prepare_optparse!81&98@
+pro|10|process!47&130@prologue!53&67@prologue!82&67@process!40&106@process!48&138@process!32&82@profile!51&66@process!44&58@process!37&114@process!36&50@
+que|18|queryBigUrl!53&67@queryBigUrl!83&67@queryBigUrl!84&67@query!51&66@query_ask!51&66@query_timeout!55&11@queryUrl!53&67@queryUrl!83&67@queryUrl!84&67@query!45&146@query_get!51&66@query_single!51&66@query_timeout!54&67@query!60&59@query_first_binding!51&66@query_timeout!55&19@query_int!51&66@query!30&90@
+quo|1|quote_encode!39&26@
+rdf|3|rdf!39&26@rdfer!85&27@rdfs!39&26@
+res|5|resultsDir!55&19@resultsDir!54&67@resource!39&26@resultsDir!55&11@results_filename!26&122@
+run|2|run!81&98@run!43&58@
+say|1|say!38&26@
+sec|1|sec!26&122@
+ses|2|session!53&67@session!83&67@
+set|2|set!42&74@set_prologue!51&66@
+ski|1|skip_admin!51&66@
+sol|1|solarq!53&67@
+spa|2|sparql!86&11@sparql!86&19@
+sta|9|started!28&122@start!87&99@state!53&67@state!88&67@stats_csv!28&122@start!89&123@stats!28&122@start!26&122@start!27&122@
+sto|8|store!36&50@store!48&138@store!47&130@store!32&82@store!44&58@store!40&106@stop!26&122@store!37&114@
+str|1|strln!42&74@
+sub|1|subjects_sorted_by_start!28&122@
+swi|1|switchDatabase!51&66@
+ter|1|terminate!56&98@
+tra|8|trackingcontext!76&123@trackq!53&67@tracka!53&67@tracking!63&123@tracku!53&67@trackc!53&67@track!53&67@trackingentity!28&122@
+trp|2|trplit!39&26@trp!39&26@
+typ|1|type!39&26@
+upd|11|update!30&90@update_timeout!54&67@updateUrl!53&67@updateUrl!83&67@update!51&66@update_cp!51&66@updateUrl!84&67@update_timeout!55&11@update_timeout!55&19@update_post!51&66@update!45&146@
+uri|10|urika!80&11@Urika!46&145@uriseg!41&74@uri!85&27@Urika!31&89@uri!90&75@urika!91&91@urika!80&19@urika!92&147@uri!39&26@
+url|3|url!55&11@url!54&67@url!55&19@
+use|4|username!54&67@username!55&19@username!55&11@used!71&67@
+val|4|validate_by_query!51&66@value!42&74@val!42&74@valp!42&74@
+wor|1|workers!93&59@
+wra|2|wrapper!94&91@wrapper!95&147@
+wri|2|writeLine!49&162@writer!96&83@
+xsd|1|xsd!39&26@
+-- END TREE
